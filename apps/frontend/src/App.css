@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #E3E7D3;
+}
+
+body {
+  background-color: #E3E7D3;
+  color: #10140c;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  color: #45512A;
+  font-weight: 600; 
+  font-size: 60.55px;
+}

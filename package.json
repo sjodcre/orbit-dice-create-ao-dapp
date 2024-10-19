@@ -1,0 +1,25 @@
+{
+  "name": "orbit-dice-game",
+  "type": "module",
+  "scripts": {
+    "rng:deploy": "cd ./ao/rng && ./scripts/deploy.sh",
+    "rng:test": "cd ./ao/rng && ./scripts/test.sh",
+    "rng:build": "cd ./ao/rng && ./scripts/build.sh",
+    "rng:inject": "STATE_FILE=./ao/rng/state-processes.yaml node ./utils/inject-process.js",
+    "frontend:dev": "cd ./apps/frontend && npm run dev",
+    "frontend:build": "cd ./apps/frontend && npm run build",
+    "frontend:deploy": "cd ./apps/frontend && npm run deploy"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "aoform": "latest",
+    "yaml": "^2.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "ao/*"
+  ]
+}

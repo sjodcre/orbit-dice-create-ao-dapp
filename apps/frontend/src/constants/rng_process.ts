@@ -1,0 +1,1 @@
+export const RNG = "jn4cS-O4PWN41uTFIA9R1TJxZ8SJiMDz52tmrq3HnmE";
